@@ -11,6 +11,7 @@ import {
   SidebarContent,
 } from '@/components/ui/sidebar';
 import {
+  Home,
   BookMarked,
   Globe,
   GraduationCap,
@@ -23,6 +24,12 @@ import { useIsMobile } from '@/hooks/use-mobile';
 import { useSidebar } from '@/components/ui/sidebar';
 
 const links = [
+  {
+    href: '/home',
+    label: 'Home',
+    icon: Home,
+    tooltip: 'Home',
+  },
   {
     href: '/hyper-local-content',
     label: 'Hyper-Local Content',
